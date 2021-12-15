@@ -1,34 +1,11 @@
-# File-sharing-Bot
+# 𝐃𝐞𝐯𝐢𝐥 𝐅𝐢𝐥𝐞𝐬 𝐒𝐭𝐨𝐫𝐞
 
-<p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
-  </a>
-  <a href="https://t.me/CodeXBotz">
-    <img src="https://github.com/CodeXBotz/PyrogramGenStr/blob/main/resources/madebycodex-badge.svg" width="250">
-  </a><br>
-  <a href="https://t.me/CodeXBotz">
-    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
-  </a>
-  <a href="https://t.me/codexbotzsupport">
-    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
-  </a>
-  <br>
-  <a href="https://github.com/CodeXBotz/File-Sharing-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/CodeXBotz/File-Sharing-Bot?style=social">
-  </a>
-  <a href="https://github.com/CodeXBotz/File-Sharing-Bot/fork">
-    <img src="https://img.shields.io/github/forks/CodeXBotz/File-Sharing-Bot?label=Fork&style=social">
-  </a>  
-</p>
-
-
-Telegram Bot to store Posts and Documents and it can Access by Special Links.
-I Guess This Will Be Usefull For Many People.....😇. 
+𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐁𝐨𝐭 𝐭𝐨 𝐬𝐭𝐨𝐫𝐞 𝐏𝐨𝐬𝐭𝐬 𝐚𝐧𝐝 𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐬 𝐚𝐧𝐝 𝐢𝐭 𝐜𝐚𝐧 𝐀𝐜𝐜𝐞𝐬𝐬 𝐛𝐲 𝐒𝐩𝐞𝐜𝐢𝐚𝐥 𝐋𝐢𝐧𝐤𝐬.
+𝐈 𝐆𝐮𝐞𝐬𝐬 𝐓𝐡𝐢𝐬 𝐖𝐢𝐥𝐥 𝐁𝐞 𝐔𝐬𝐞𝐟𝐮𝐥𝐥 𝐅𝐨𝐫 𝐌𝐚𝐧𝐲 𝐏𝐞𝐨𝐩𝐥𝐞.....😇.
 
 ##
 
-**If you need any more modes in repo or If you find out any bugs, mention in [@codexbotzsupport ](https://www.telegram.dog/codexbotzsupport)**
+**𝘐𝘧 𝘠𝘰𝘶 𝘕𝘦𝘦𝘥 𝘈𝘯𝘺 𝘔𝘰𝘳𝘦 𝘔𝘰𝘥𝘦𝘴 𝘪𝘯 𝘙𝘦𝘱𝘰 𝘖𝘳 𝘐𝘧 𝘠𝘰𝘶 𝘍𝘪𝘯𝘥 𝘖𝘶𝘵 𝘈𝘯𝘺 𝘉𝘶𝘨𝘴, 𝘔𝘦𝘯𝘵𝘪𝘰𝘯 𝘐𝘯 [@JaiHindChatting ](https://www.telegram.dog/JaiHindChatting)**
 
 ### Features
 - Fully customisable.
@@ -44,21 +21,8 @@ I Guess This Will Be Usefull For Many People.....😇.
 ##
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CodeXBotz/File-Sharing-Bot)</br>
-<a href="https://youtu.be/LCrkRTMkmzE">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
-**Check This Tutorial Video on YouTube for any Help**<br>
-**Thanks to [Erich](https://t.me/ErichDaniken) and his [InFoTel](https://t.me/InFoTel_Group) for this Video**
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rakeshyt/DevilFilesStore)</br>
 
-#### Deploy in your VPS
-````bash
-git clone https://github.com/CodeXBotz/File-Sharing-Bot
-cd File-Sharing-Bot
-pip3 install -r requirements.txt
-# <Create config.py appropriately>
-python3 main.py
-````
 
 ### Admin Commands
 
@@ -82,13 +46,13 @@ python3 main.py
 * `OWNER_ID` Must enter Your Telegram Id
 * `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
 * `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
+* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/rakeshyt/DevilFilesStore/blob/main/README.md#start_message'>fillings</a>
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 
 ### Extra Variables
 
-* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/CodeXBotz/File-Sharing-Bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
+* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/rakeshyt/DevilFilesStore/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
 * `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
 
 ### Fillings
@@ -105,27 +69,31 @@ python3 main.py
 * `{filename}` - file name of the Document
 * `{previouscaption}` - Original Caption
 
+## ✨ 𝐏𝐥𝐞𝐚𝐬𝐞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐇𝐞𝐫𝐞 ✨
 
-## Support   
-Join Our [Telegram Group](https://www.telegram.dog/codexbotzsupport) For Support/Assistance And Our [Channel](https://www.telegram.dog/codexbotz) For Updates.   
-   
-Report Bugs, Give Feature Requests There..   
+### 𝙎𝙥𝙚𝙘𝙞𝙖𝙡 𝘾𝙧𝙚𝙙𝙞𝙩𝙨 ⚡
+- [🕊️⃝🇮🇳★𝐃𝐞𝐯𝐢𝐋😈𝐇𝐚𝐜𝐤𝐞𝐫★🇮🇳⃝🕊️](https://t.me/JaiHindChatting) 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫
 
-### Credits
+### 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 & 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🎑
+<a href="https://t.me/JaiHindChatting"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/SonalModdingGod"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
-- Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
-- Our Support Group Members
 
-### Licence
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+```
+<code>{previouscaption}</code>
 
-[FILE-SHARING-BOT](https://github.com/CodeXBotz/File-Sharing-Bot/) is Free Software: You can use, study share and improve it at your
-will. Specifically you can redistribute and/or modify it under the terms of the
-[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
-published by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version. 
+🔥💫  𝙁𝙞𝙧𝙨𝙩 𝙊𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢  🔥💫
+𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 𝙖𝙣𝙙 𝙂𝙚𝙩 𝙄𝙣 1 𝙈𝙞𝙣𝙪𝙩𝙚 100℅👇
+https://t.me/SonalModdingGod
+यहां अपनी फिल्मों का अनुरोध करें और 1 मिनट में प्राप्त करें 100℅ 👇
+https://t.me/SonalModdingGod
 
-##
+🤭 𝗔𝗟𝗟 𝗠𝗢𝗩𝗜𝗘𝗦 𝗛𝗘𝗥𝗘 🥱
 
-   **Star this Repo if you Liked it ⭐⭐⭐**
+<a href="http://t.me/RYMOFFICIAL">1☞𝙅𝙤𝙞𝙣 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝘾𝙝𝙖𝙣𝙣𝙚𝙡</a>
 
+<a href="http://t.me/SonalModdingGod">2☞ 𝙅𝙤𝙞𝙣 𝙈𝙤𝙫𝙞𝙚𝙨 𝙂𝙧𝙤𝙪𝙥</a>
+
+<a href="https://t.me/JaiHindChatting">3☞ 𝙅𝙤𝙞𝙣 𝘾𝙝𝙖𝙩𝙩𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥</a>
+
+<a href="https://t.me/THEDRAGONV6">4☞ 𝙅𝙤𝙞𝙣 𝙁𝙚𝙙 𝙂𝙧𝙤𝙪𝙥</a>
+```
