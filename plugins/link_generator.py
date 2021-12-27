@@ -34,7 +34,7 @@ async def batch(client: Client, message: Message):
     string = f"get-{f_msg_id * abs(client.db_channel.id)}-{s_msg_id * abs(client.db_channel.id)}"
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'{link}')]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'https://droplink.co/api?api=ab306a8cfe7e935e6cdddf1ca605665f25b50eb8&url={link}&format=text')]])
     await second_message.reply_text(f"<b>Here is your link</b>\n\n{link}", quote=True, reply_markup=reply_markup)
 
 
@@ -54,5 +54,5 @@ async def link_generator(client: Client, message: Message):
 
     base64_string = await encode(f"get-{msg_id * abs(client.db_channel.id)}")
     link = f"https://t.me/{client.username}?start={base64_string}"
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'{link}')]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'https://droplink.co/api?api=ab306a8cfe7e935e6cdddf1ca605665f25b50eb8&url={link}&format=text')]])
     await channel_message.reply_text(f"<b>Here is your link</b>\n\n{link}", quote=True, reply_markup=reply_markup)
