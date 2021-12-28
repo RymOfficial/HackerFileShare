@@ -80,7 +80,7 @@
 
 CUSTOM_CAPTION
 ```
-<code>{previouscaption}</code>
+<code>{file_name}</code>
 
 🔥💫  𝙁𝙞𝙧𝙨𝙩 𝙊𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢  🔥💫
 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 𝙖𝙣𝙙 𝙂𝙚𝙩 𝙄𝙣 1 𝙈𝙞𝙣𝙪𝙩𝙚 100℅👇
