@@ -14,7 +14,8 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "",
+      "required": false
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -26,27 +27,22 @@
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1001274210298"
+      "value": "",
+      "required": false
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-1001330862638"
+      "description": "id of the channel or group, if you want enable force sub feature",
+      "value": "",
+      "required": false
     },
     "CUSTOM_CAPTION":{
       "description": "ENTER CUSTOM CAPTION",
-      "value": ""
-    },
-    "START_MESSAGE": {
-      "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": ""
-    },
-    "FORCE_SUB_MESSAGE": {
-      "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "𝗛𝗲𝗹𝗹𝗼 {first}\n\n<b>𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗧𝗼 𝗝𝗼𝗶𝗻 𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗧𝗼 𝗨𝘀𝗲 𝗠𝗲\n\n𝗞𝗶𝗻𝗱𝗹𝘆 𝗣𝗹𝗲𝗮𝘀𝗲 𝗝𝗼𝗶𝗻 𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹</b>"
+      "value": "",
+      "required": false
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "2023126723 1442442077",
+      "value": "",
       "required": false
     }
   },
