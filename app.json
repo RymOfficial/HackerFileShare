@@ -10,40 +10,43 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
+      "required": true,
       "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "2023126723",
-      "required": true
+      "required": false,
+      "value": ""
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
+      "required": true,
       "value": "8495910"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
+      "required": true,
       "value": "72a04a96bb1eb81fd9c8e80b5c6eb779"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1001274210298",
-      "required": true
+      "required": false,
+      "value": ""
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature",
-      "value": "-1001330862638",
-      "required": true
+      "required": false,
+      "value": ""
     },
     "CUSTOM_CAPTION":{
       "description": "ENTER CUSTOM CAPTION",
-      "value": "",
-      "required": false
+      "required": false,
+      "value": ""
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
-      "required": false
+      "required": false,
+      "value": ""
     }
   },
   "addons": [
