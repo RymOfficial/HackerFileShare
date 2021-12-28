@@ -14,7 +14,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "",
+      "value": "2023126723",
       "required": false
     },
     "APP_ID":{
