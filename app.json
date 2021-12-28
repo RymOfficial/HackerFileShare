@@ -27,13 +27,13 @@
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "",
-      "required": false
+      "value": "-1001274210298",
+      "required": true
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature",
-      "value": "",
-      "required": false
+      "value": "-1001330862638",
+      "required": true
     },
     "CUSTOM_CAPTION":{
       "description": "ENTER CUSTOM CAPTION",
