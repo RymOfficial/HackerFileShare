@@ -34,19 +34,14 @@
       "value": "-1001274210298"
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature",
+      "description": "id of the channel or group, if you want enable force sub feature otherwise put 0 for disable",
       "required": true,
       "value": "-1001330862638"
     },
-    "CUSTOM_CAPTION":{
-      "description": "ENTER CUSTOM CAPTION",
-      "required": false,
-      "value": ""
-    },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "description": "Admins id they can only create links, otherwise leave blank",
       "required": false,
-      "value": ""
+      "value": "2023126723 1442442077"
     }
   },
   "addons": [
