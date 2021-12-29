@@ -12,16 +12,16 @@ APP_ID = int(os.environ.get("APP_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001274210298"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2023126723"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001330862638"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
