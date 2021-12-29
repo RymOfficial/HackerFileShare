@@ -15,8 +15,8 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "2023126723"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -30,13 +30,13 @@
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "-1001274210298"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "-1001330862638"
     },
     "CUSTOM_CAPTION":{
       "description": "ENTER CUSTOM CAPTION",
