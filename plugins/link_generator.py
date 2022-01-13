@@ -34,7 +34,7 @@ async def batch(client: Client, message: Message):
     string = f"get-{f_msg_id * abs(client.db_channel.id)}-{s_msg_id * abs(client.db_channel.id)}"
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'https://droplink.co/api?api=ab306a8cfe7e935e6cdddf1ca605665f25b50eb8&url={link}&format=text')]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'https://bellurl.com/api?api=26c03c8114421edde2beeeba8cb3259a1a6e05c6&url={link}&format=text')]])
     await second_message.reply_text(f"<b>Here is your link</b>\n\n{link}", quote=True, reply_markup=reply_markup)
 
 
