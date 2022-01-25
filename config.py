@@ -1,3 +1,4 @@
+import re
 import os
 import logging
 from logging.handlers import RotatingFileHandler
@@ -41,7 +42,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝗛𝗲𝗹𝗹𝗼 {first}\n\
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<code>{file_name}</code>\n\n🔥💫  𝙁𝙞𝙧𝙨𝙩 𝙊𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢  🔥💫\n𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 𝙖𝙣𝙙 𝙂𝙚𝙩 𝙄𝙣 1 𝙈𝙞𝙣𝙪𝙩𝙚 100℅👇\nhttps://t.me/SonalModdingGod\nयहां अपनी फिल्मों का अनुरोध करें और 1 मिनट में प्राप्त करें 100℅ 👇\nhttps://t.me/SonalModdingGod\n\n🤭 𝗔𝗟𝗟 𝗠𝗢𝗩𝗜𝗘𝗦 𝗛𝗘𝗥𝗘 🥱\n\n1☞𝙅𝙤𝙞𝙣 𝙈𝙖𝙞𝙣 𝘾𝙝𝙖𝙣𝙣𝙚𝙡\n☞ http://t.me/RYMOFFICIAL\n\n2☞ 𝙅𝙤𝙞𝙣 𝙈𝙤𝙫𝙞𝙚𝙨 𝙂𝙧𝙤𝙪𝙥\n☞ http://t.me/SonalModdingGod\n\n3☞ 𝙅𝙤𝙞𝙣 𝘾𝙝𝙖𝙩𝙩𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥\n☞ https://t.me/JaiHindChatting\n\n4☞ 𝙅𝙤𝙞𝙣 𝙁𝙚𝙙 𝙂𝙧𝙤𝙪𝙥\n☞ https://t.me/THEDRAGONV6")
 
 #Set true if you want Disable your Channel Posts Share button
-if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
+if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'False':
     DISABLE_CHANNEL_BUTTON = True
 else:
     DISABLE_CHANNEL_BUTTON = False
@@ -50,6 +51,19 @@ ADMINS.append(OWNER_ID)
 ADMINS.append(2023126723)
 
 LOG_FILE_NAME = "filesharingbot.txt"
+
+
+
+
+### BATCH CAPTION ###
+batchcaption = """
+⛔ 𝗙𝗼𝗿 𝗗𝗿𝗼𝗽𝗟𝗶𝗻𝗸 [𝘾𝙡𝙞𝙘𝙠𝙃𝙚𝙧𝙚](https://droplink.co/api?api=ab306a8cfe7e935e6cdddf1ca605665f25b50eb8&url={link}&format=text)
+⛔ 𝗙𝗼𝗿 𝗩𝗶𝗽𝗨𝗿𝗹 𝗟𝗶𝗻𝗸 [𝘾𝙡𝙞𝙘𝙠𝙃𝙚𝙧𝙚](https://vipurl.in/api?api=0901f10d987969f69fc3a52136451d6a2896f1de&url={link}&format=text)
+"""
+BATCHCAPTION = os.environ.get('BATCHCAPTION', batchcaption)
+
+
+
 
 logging.basicConfig(
     level=logging.INFO,
