@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from bot import Bot
-from config import ADMINS, BATCHLINKS
+from config import ADMINS, BATCHCAPTION
 from helper_func import encode, get_message_id
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & filters.command('batch'))
@@ -35,7 +35,7 @@ async def batch(client: Client, message: Message):
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'{link}')]])
-    await second_message.reply_text(caption=BATCHLINKS, quote=True, reply_markup=reply_markup)
+    await second_message.reply_text(caption=BATCHCAPTION, quote=True, reply_markup=reply_markup)
 
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & filters.command('genlink'))
