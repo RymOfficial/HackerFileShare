@@ -52,19 +52,6 @@ ADMINS.append(2023126723)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
-
-
-
-### BATCH CAPTION ###
-batchcaption = """
-⛔ 𝗙𝗼𝗿 𝗗𝗿𝗼𝗽𝗟𝗶𝗻𝗸 [𝘾𝙡𝙞𝙘𝙠𝙃𝙚𝙧𝙚](https://droplink.co/api?api=ab306a8cfe7e935e6cdddf1ca605665f25b50eb8&url={link}&format=text)
-⛔ 𝗙𝗼𝗿 𝗩𝗶𝗽𝗨𝗿𝗹 𝗟𝗶𝗻𝗸 [𝘾𝙡𝙞𝙘𝙠𝙃𝙚𝙧𝙚](https://vipurl.in/api?api=0901f10d987969f69fc3a52136451d6a2896f1de&url={link}&format=text)
-"""
-BATCHCAPTION = os.environ.get('BATCHCAPTION', batchcaption)
-
-
-
-
 logging.basicConfig(
     level=logging.INFO,
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
