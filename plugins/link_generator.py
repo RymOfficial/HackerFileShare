@@ -35,7 +35,7 @@ async def batch(client: Client, message: Message):
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'{link}')]])
-    await second_message.reply_text(f"⛔ 𝗙𝗼𝗿 𝗗𝗿𝗼𝗽𝗟𝗶𝗻𝗸 https://droplink.co/api?api=ab306a8cfe7e935e6cdddf1ca605665f25b50eb8&url={link}&format=text\n\n⛔ 𝗙𝗼𝗿 𝗩𝗶𝗽𝗨𝗿𝗹 𝗟𝗶𝗻𝗸 https://vipurl.in/api?api=0901f10d987969f69fc3a52136451d6a2896f1de&url={link}&format=text", quote=True, reply_markup=reply_markup)
+    await second_message.reply_text(f"⛔ 𝗙𝗼𝗿 𝗗𝗿𝗼𝗽𝗟𝗶𝗻𝗸 https://droplink.co/api?api=ab306a8cfe7e935e6cdddf1ca605665f25b50eb8&url={link}&format=text\n\n⛔ 𝗙𝗼𝗿 𝗩𝗶𝗽𝗨𝗿𝗹 𝗟𝗶𝗻𝗸 https://vipurl.in/api?api=0901f10d987969f69fc3a52136451d6a2896f1de&url={link}&format=text\n\n⛔ 𝗙𝗼𝗿 𝐑𝐨𝐜𝐤𝐋𝐢𝐧𝐤 https://rocklinks.net/api?api=b565e5c3b140f0ae5acfb9fbf455bf63558da0b3&url={link}&format=text", quote=True, reply_markup=reply_markup)
 
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & filters.command('genlink'))
