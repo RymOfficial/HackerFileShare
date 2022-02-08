@@ -35,7 +35,7 @@ async def batch(client: Client, message: Message):
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Copy URL", url=f'{link}')]])
-    await second_message.reply_text(f"✅ 𝐕𝐢𝐩𝐮𝐫𝐥 https://vipurl.in/api?api=0901f10d987969f69fc3a52136451d6a2896f1de&url={link}&format=text\n\n✅ 𝐑𝐚𝐲𝐳𝐞𝐫 https://rayzershort.com/api?api=ba3e483bc2c5b674d2fcfcbd98db6aac3f6b8358&url={link}&format=text", quote=True, reply_markup=reply_markup)
+    await second_message.reply_text(f"✅ 𝐄𝐚𝐫𝐧4𝐋𝐢𝐧𝐤 https://earn4link.in/api?api=14bf082db3caa5fa0be9baa1a46e2fc44d17a2bd&url={link}&format=text", quote=True, reply_markup=reply_markup)
 
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & filters.command('genlink'))
