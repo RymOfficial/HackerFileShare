@@ -41,7 +41,7 @@
     "ADMINS": {
       "description": "Admins id they can only create links, otherwise leave blank",
       "required": false,
-      "value": "2023126723 1442442077"
+      "value": "5265780945 5220814960 1442442077"
     }
   },
   "addons": [
