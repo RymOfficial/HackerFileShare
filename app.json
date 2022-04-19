@@ -16,7 +16,7 @@
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
       "required": true,
-      "value": "2023126723"
+      "value": "5265780945"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -35,8 +35,8 @@
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature otherwise put 0 for disable",
-      "required": true,
-      "value": "-1001330862638"
+      "required": false,
+      "value": ""
     },
     "ADMINS": {
       "description": "Admins id they can only create links, otherwise leave blank",
