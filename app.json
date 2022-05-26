@@ -33,11 +33,6 @@
       "required": true,
       "value": "-1001274210298"
     },
-    "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature otherwise put 0 for disable",
-      "required": false,
-      "value": ""
-    },
     "ADMINS": {
       "description": "Admins id they can only create links, otherwise leave blank",
       "required": false,
