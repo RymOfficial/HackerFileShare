@@ -42,21 +42,21 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝗛𝗲𝗹𝗹𝗼 {first}\n\
 
 ### Custom Caption ###
 default_custom_caption = """
-𝗙𝗶𝗹𝗲 : <code>{file_name}</code>
+📁 ➜ <code>@RymOfficial {file_caption}</code>
 
-🔥💫  𝙁𝙞𝙧𝙨𝙩 𝙊𝙣 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢  🔥💫
-𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚 𝙖𝙣𝙙 𝙂𝙚𝙩 𝙄𝙣 1 𝙈𝙞𝙣𝙪𝙩𝙚 100℅👇
-https://t.me/SonalModdingGod
+🦋 𝗙𝗶𝗿𝘀𝘁 𝗢𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 🦋
+𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐞𝐫𝐞 𝐀𝐧𝐝 𝐆𝐞𝐭 𝐈𝐧 1 𝐌𝐢𝐧𝐮𝐭𝐞 100℅ 👇
+[@SonalModdingGod](https://t.me/SonalModdingGod)
 यहां अपनी फिल्मों का अनुरोध करें और 1 मिनट में प्राप्त करें 100℅ 👇
-https://t.me/SonalModdingGod
+[@SonalModdingGod](https://t.me/SonalModdingGod)
 
-🤭 𝗔𝗟𝗟 𝗠𝗢𝗩𝗜𝗘𝗦 𝗛𝗘𝗥𝗘 🥱
-
-<a href="http://t.me/RYMOFFICIAL">1☞𝙅𝙤𝙞𝙣 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 𝘾𝙝𝙖𝙣𝙣𝙚𝙡</a>
-
-<a href="http://t.me/SonalModdingGod">2☞ 𝙅𝙤𝙞𝙣 𝙈𝙤𝙫𝙞𝙚𝙨 𝙂𝙧𝙤𝙪𝙥</a>
-
-<a href="https://t.me/JaiHindChatting">3☞ 𝙅𝙤𝙞𝙣 𝘾𝙝𝙖𝙩𝙩𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥</a>
+╔══ 𝐉𝐨𝐢𝐧 𝐖𝐢𝐭𝐡 𝐔𝐬 ═══╗
+ᴏғғɪᴄɪᴀʟ @RymOfficial
+ᴍᴏᴠɪᴇs @SonalModdingGod
+sᴜᴘᴘᴏʀᴛ @JaiHindChatting
+╚══ 𝐉𝐨𝐢𝐧 𝐖𝐢𝐭𝐡 𝐔𝐬 ═══╝
+♥️ 𝗧𝗲𝗮𝗺 ➜ [𝐑𝐲𝐦 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥](https://t.me/RymOfficial)
+✯ ━━━━━ ✧ ━━━━━ ✯
 """
 CUSTOM_CAPTION = os.environ.get('CUSTOM_CAPTION', default_custom_caption)
 
