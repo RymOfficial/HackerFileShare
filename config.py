@@ -46,16 +46,16 @@ default_custom_caption = """
 
 🦋 𝗙𝗶𝗿𝘀𝘁 𝗢𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 🦋
 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐘𝐨𝐮𝐫 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐞𝐫𝐞 𝐀𝐧𝐝 𝐆𝐞𝐭 𝐈𝐧 1 𝐌𝐢𝐧𝐮𝐭𝐞 100℅ 👇
-[@SonalModdingGod](https://t.me/SonalModdingGod)
+@SonalModdingGod
 यहां अपनी फिल्मों का अनुरोध करें और 1 मिनट में प्राप्त करें 100℅ 👇
-[@SonalModdingGod](https://t.me/SonalModdingGod)
+@SonalModdingGod
 
 ╔══ 𝐉𝐨𝐢𝐧 𝐖𝐢𝐭𝐡 𝐔𝐬 ═══╗
 ᴏғғɪᴄɪᴀʟ @RymOfficial
 ᴍᴏᴠɪᴇs @SonalModdingGod
 sᴜᴘᴘᴏʀᴛ @JaiHindChatting
 ╚══ 𝐉𝐨𝐢𝐧 𝐖𝐢𝐭𝐡 𝐔𝐬 ═══╝
-♥️ 𝗧𝗲𝗮𝗺 ➜ [𝐑𝐲𝐦 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥](https://t.me/RymOfficial)
+♥️ 𝗧𝗲𝗮𝗺 ➜ @RymOfficial
 ✯ ━━━━━ ✧ ━━━━━ ✯
 """
 CUSTOM_CAPTION = os.environ.get('CUSTOM_CAPTION', default_custom_caption)
