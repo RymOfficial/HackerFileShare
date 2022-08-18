@@ -52,7 +52,10 @@ default_custom_caption = """
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", default_custom_caption)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "False" else True
+if os.environ.get("PROTECT_CONTENT", None) == 'True':
+    PROTECT_CONTENT = True
+else:
+    PROTECT_CONTENT = False
 
 #Set true if you want Disable your Channel Posts Share button
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
