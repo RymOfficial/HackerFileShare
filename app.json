@@ -16,17 +16,17 @@
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
       "required": true,
-      "value": "5265780945"
+      "value": "5038784553"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
       "required": true,
-      "value": "8495910"
+      "value": "13292294"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
       "required": true,
-      "value": "72a04a96bb1eb81fd9c8e80b5c6eb779"
+      "value": "68cf86881e7d9e706a3c886471ffdc21"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
@@ -36,7 +36,7 @@
     "ADMINS": {
       "description": "Admins id they can only create links, otherwise leave blank",
       "required": false,
-      "value": "5265780945 5220814960 1442442077"
+      "value": "5038784553 1442442077"
     }
   },
   "addons": [
