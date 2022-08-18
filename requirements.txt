@@ -1,5 +1,5 @@
 # --- For-Bot-Working --------- #
-pyrogram==
+pyrogram
 TgCrypto
 Pyromod
 # --- For-Database ------------ #
