@@ -1,6 +1,7 @@
 import os
 import asyncio
 from pyrogram import Client, filters, __version__
+from pyrogram.enums import ParseMode
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 
@@ -66,8 +67,8 @@ async def start_command(client: Client, message: Message):
 
         for msg in messages:
 
-            if bool(CUSTOM_CAPTION):
-                caption = CUSTOM_CAPTION.format(file_caption = "" if not msg.caption else msg.caption.html)
+            if bool(CUSTOM_CAPTION) & bool(msg.document):
+                caption = CUSTOM_CAPTION.format(previouscaption = "" if not msg.caption else msg.caption.html, filename = msg.document.file_name)
             else:
                 caption = "" if not msg.caption else msg.caption.html
 
@@ -77,11 +78,11 @@ async def start_command(client: Client, message: Message):
                 reply_markup = None
 
             try:
-                await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = 'html', reply_markup = reply_markup)
+                await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = ParseMode.HTML, reply_markup = reply_markup, protect_content=PROTECT_CONTENT)
                 await asyncio.sleep(0.5)
             except FloodWait as e:
                 await asyncio.sleep(e.x)
-                await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = 'html', reply_markup = reply_markup)
+                await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = ParseMode.HTML, reply_markup = reply_markup, protect_content=PROTECT_CONTENT)
             except:
                 pass
         return
@@ -179,7 +180,6 @@ async def send_text(client: Bot, message: Message):
             total += 1
         
         status = f"""<b><u>Broadcast Completed</u>
-
 Total Users: <code>{total}</code>
 Successful: <code>{successful}</code>
 Blocked Users: <code>{blocked}</code>
