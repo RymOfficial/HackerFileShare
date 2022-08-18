@@ -39,7 +39,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hᴇʟʟᴏ {first}\n\nYᴏᴜ 
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 default_custom_caption = """
-📁 [@RymOfficial {previouscaption}](https://t.me/RymOfficial)
+📁 [@RymOfficial {file_caption}](https://t.me/RymOfficial)
 ★━━━━━━ ⊛ 🇮🇳 ⊛ ━━━━━━★
 ╔══⚘⚚ Jᴏɪɴ Oᴜʀ Nᴇᴛᴡᴏʀᴋ ⚘⚚═══╗
 ☞ Nᴇᴛᴡᴏʀᴋ @RymOfficial         ☜
@@ -52,7 +52,7 @@ default_custom_caption = """
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", default_custom_caption)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "False" else True
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 #Set true if you want Disable your Channel Posts Share button
 if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
