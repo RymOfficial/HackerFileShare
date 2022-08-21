@@ -1,6 +1,6 @@
 import os
 import asyncio
-from pyrogram import Client, filters, __version__
+from pyrogram import Client, filters, __version__, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
@@ -81,7 +81,7 @@ async def start_command(client: Client, message: Message):
                 await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = ParseMode.HTML, reply_markup = reply_markup, protect_content=PROTECT_CONTENT)
                 await asyncio.sleep(0.5)
             except FloodWait as e:
-                await asyncio.sleep(e.x)
+                await asyncio.sleep(e.value)
                 await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = ParseMode.HTML, reply_markup = reply_markup, protect_content=PROTECT_CONTENT)
             except:
                 pass
@@ -167,7 +167,7 @@ async def send_text(client: Bot, message: Message):
                 await broadcast_msg.copy(chat_id)
                 successful += 1
             except FloodWait as e:
-                await asyncio.sleep(e.x)
+                await asyncio.sleep(e.value)
                 await broadcast_msg.copy(chat_id)
                 successful += 1
             except UserIsBlocked:
